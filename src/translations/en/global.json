@@ -1,0 +1,15 @@
+{
+	"nav":{
+		"nav-one": "About",
+		"nav-two": "Portfolio",
+		"nav-three": "Contact"
+	},
+	
+	"top-page": {
+		"hello-one": "Hello! My name is",
+		"hello-two": "I'm Frontend Developer",
+		"res-view": "View Resume",
+		"res-download": "Download Resume"
+	}
+
+}

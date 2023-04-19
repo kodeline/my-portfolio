@@ -1,0 +1,14 @@
+{
+	"nav":{
+		"nav-one": "Sobre Mi",
+		"nav-two": "Portafolio",
+		"nav-three": "Contacto"
+	},
+
+	"top-page": {
+		"hello-one": "Hola! Mi nombre es",
+		"hello-two": "Desarrollador Frontend",
+		"res-view": "Ver CV",
+		"res-download": "Descargar CV"
+	}
+}
