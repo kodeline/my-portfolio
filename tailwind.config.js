@@ -9,5 +9,11 @@ export default {
   },
   plugins: [],
   darkMode: 'class',
+  variants: {
+    extend: {
+      // ...
+     borderWidth: ['hover', 'focus'],
+    }
+  },
 }
 

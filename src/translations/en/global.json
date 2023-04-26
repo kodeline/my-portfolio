@@ -1,8 +1,8 @@
 {
 	"nav":{
-		"nav-one": "About",
-		"nav-two": "Portfolio",
-		"nav-three": "Contact"
+		"link-one": "About",
+		"link-two": "Portfolio",
+		"link-three": "Contact"
 	},
 	
 	"top-page": {
@@ -10,6 +10,10 @@
 		"hello-two": "I'm Frontend Developer",
 		"res-view": "View Resume",
 		"res-download": "Download Resume"
+	},
+
+	"about": {
+		"title": "About Me"
 	}
 
 }

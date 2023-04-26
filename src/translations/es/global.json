@@ -1,8 +1,8 @@
 {
 	"nav":{
-		"nav-one": "Sobre Mi",
-		"nav-two": "Portafolio",
-		"nav-three": "Contacto"
+		"link-one": "Sobre Mi",
+		"link-two": "Portafolio",
+		"link-three": "Contacto"
 	},
 
 	"top-page": {
@@ -10,5 +10,8 @@
 		"hello-two": "Desarrollador Frontend",
 		"res-view": "Ver CV",
 		"res-download": "Descargar CV"
+	},
+	"about": {
+		"title": "Sobre Mi"
 	}
 }

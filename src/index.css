@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .indicator{
+    @apply relative tracking-[1px] 
+  }
+  .indicator::after {
+    @apply content-[''] bg-pink-600 h-[2px] w-[0%]  
+    left-0 -bottom-[5px] rounded-xl absolute duration-300
+  }
+  .indicator:hover::after {
+    @apply w-[100%]
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(3, 1, 19);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(52, 52, 78);
+  border-radius: 5px;
+}
+
