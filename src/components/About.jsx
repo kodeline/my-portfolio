@@ -5,7 +5,7 @@ function About () {
   const [t] = useTranslation('global');
   
   return(
-    <section id="about" className='h-[100vh] flex flex-col items-center'>
+    <section id='about' className='h-[100vh] flex flex-col items-center'>
       <h1 className='mt-40 mb-10 text-4xl text-center'>{t('about.title')}</h1>
       <div className='flex flex-row  items-center place-content-center w-9/12'>
         <div className='col-span-3 w-3/12'>

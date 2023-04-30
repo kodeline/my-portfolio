@@ -25,3 +25,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
+.card-img {
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.card-img:hover {
+  transform: translateY(-85%);
+}
+

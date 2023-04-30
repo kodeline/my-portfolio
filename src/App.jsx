@@ -2,6 +2,7 @@ import Navigation from './components/Navigation'
 import TopPage from './components/TopPage';
 import About from './components/About';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Navigation />
         <TopPage />
         <About />
+        <Portfolio />
         <Footer />
       </main>
     </div>
