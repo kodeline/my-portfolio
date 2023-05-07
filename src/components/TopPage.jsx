@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import { RiLinkedinBoxFill, RiGithubFill  } from 'react-icons/ri';
 import { useTranslation } from 'react-i18next';
 
@@ -5,8 +8,12 @@ function TopPage() {
 	
 	const [t] = useTranslation('global');
 
+	useEffect(() => {
+    AOS.init({duration:2000});
+  },[]);
+
 	return (
-		<div className='top h-[80vh] grid justify-item-center place-content-center '>
+		<div className='top h-[80vh] grid justify-item-center place-content-center' data-aos='fade-up'>
 			<h2 className='text-6xl font-bold text-gray-800 dark:text-gray-300 my-2'> {t('top-page.hello-one')} </h2>
 			<h1 className='text-8xl font-bold text-[#F01F52] my-2'> Joaquin Navarro</h1>
 			<h2 className='text-6xl font-bold text-gray-800 dark:text-gray-300 my-2'> {t('top-page.hello-two')} </h2>

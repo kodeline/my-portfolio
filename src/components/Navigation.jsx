@@ -15,10 +15,10 @@ function Navigation() {
 				<a href="#contact" className='indicator mx-3 py-2'>{t('nav.link-three')}</a>
 			</div>
 			<div className='flex flex-row items-center place-content-center '>
-				<div className='border-r-2 mt-1'>
+				<div className='border-r-2 mt-2'>
 					<LangButton />	
 				</div>
-				<div className=''>
+				<div className='text-2xl'>
 					<ThemeButton /> 
 				</div>
 
