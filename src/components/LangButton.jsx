@@ -22,7 +22,7 @@ function LangButton() {
 
 
   return (
-    <button onClick={handleLang} className='px-1 mx-1'>
+    <button onClick={handleLang} className='px-1 mx-1 font-semibold'>
       {
         lang === 'en' ?
           <button onClick={() => i18n.changeLanguage('en')}> EN </button>

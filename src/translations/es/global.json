@@ -7,11 +7,25 @@
 
 	"top-page": {
 		"hello-one": "Hola! Mi nombre es",
-		"hello-two": "Soy Desarrollador Front-End",
+		"hello-two": "Desarrollador Front-End",
 		"res-view": "Ver CV",
 		"res-download": "Descargar CV"
 	},
+
 	"about": {
-		"title": "Sobre Mi"
+		"title-one": "Sobre Mi",
+		"content": "Hola! soy Joaquin Navarro, Me recibi de Ingenieria de Sistemas, Actualmente resido en Buenos Aires, Argentina. Ultimamente he trabajado como profesor de programacion en estos ultimos 6 años, Sin embargo decidí dar el salto para seguir una carrera en desarrollador front-end, me encanta aprender nuevas tecnologías y trabajar mi creatividad para crear webs increíbles.",
+		"title-two": "Habilidades"
+	},
+
+	"portfolio": {
+		"title": "Portafolio"
+	},
+
+	"contact": {
+		"title": "Contacto",
+		"form-name": "Nombre",
+		"form-msg": "Mensaje",
+		"form-btn": "Enviar"
 	}
 }

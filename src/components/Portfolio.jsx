@@ -1,22 +1,15 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'
 import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 import PageOne from '../assets/img/kodegames.png';
 import PageTwo from '../assets/img/tequepops.png';
 
 function Portfolio() {
 
-  useEffect(() => {
-    AOS.init({duration:2000});
-  },[]);
-
   return (
-    <section id='portfolio' className=''>
+    <section id='portfolio' className='my-20 py-2'>
       <h1 className='mt-40 mb-10 text-4xl text-center'> Portfolio </h1>
-      <div className='flex flex-col  items-center place-content-center'>
+      <div className='flex flex-col items-center place-content-center'>
 
-        <div className='flex rounded-xl p-10 shadow-xl w-8/12 my-5 dark:bg-[#13181f]' data-aos='fade-right'>
+        <div className='flex bg-white rounded-xl p-10 shadow-xl w-8/12 my-5 dark:bg-[#081825]' data-aos='fade-right'>
           <div className='portfolio-img w-7/12 h-[300px] overflow-hidden rounded-2xl'>
             <img src={PageOne} className='card-img' />
           </div>
@@ -41,7 +34,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className='flex rounded-xl p-10 shadow-xl w-8/12 my-5 dark:bg-[#13181f]' data-aos='fade-left'>
+        <div className='flex bg-white rounded-xl p-10 shadow-xl w-8/12 my-5 dark:bg-[#081825]' data-aos='fade-left'>
           <div className='portfolio-info w-5/12 mx-10 grid items-center'>
             <h3 className='text-center text-2xl font-semibold'>Dashboard Restaurant</h3><br />
             <p className='text-lg text-center'>This is a mobile first app with mainly a dashboard, analitycs, orders information and tools that help to users to grow your business.</p><br />

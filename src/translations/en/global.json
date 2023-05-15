@@ -9,11 +9,26 @@
 		"hello-one": "Hello! My name is",
 		"hello-two": "I'm Front-End Developer",
 		"res-view": "View Resume",
-		"res-download": "Download Resume"
+		"res-download": "Download Resume",
+		"cv-url": "ResumeEn"
 	},
 
 	"about": {
-		"title": "About Me"
+		"title-one": "About Me",
+		"content": "Hi! I’m Joaquin Navarro, a System Engineer based in Buenos Aires, Argentina. Lately working as Programming Teacher for almost 6 years, I’ve decided to take the leap to pursue a career in Front End Developer, I love to learn new technologies and flex my creativity to create amazing things.",
+		"title-two": "Tech I Use"
+
+	},
+
+	"portfolio": {
+		"title": "Portfolio"
+	},
+
+	"contact": {
+		"title": "Contact",
+		"form-name": "Name",	
+		"form-msg": "Message",
+		"form-btn": "Send"
 	}
 
 }
