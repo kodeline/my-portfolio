@@ -7,7 +7,8 @@
 
 	"top-page": {
 		"hello-one": "Hola! Mi nombre es",
-		"hello-two": "Desarrollador Front-End",
+		"hello-two": "Desarrollador Full Stack",
+		"hello-three": "Ingeniero de Sistemas",
 		"res-view": "Ver CV",
 		"res-download": "Descargar CV"
 	},
@@ -26,6 +27,11 @@
 		"title": "Contacto",
 		"form-name": "Nombre",
 		"form-msg": "Mensaje",
-		"form-btn": "Enviar"
+		"form-btn": "Enviar",
+		"title-two": "Ubicación"
+	},
+
+	"footer": {
+		"text": "Desarrollado por Joaquin Navarro"
 	}
 }

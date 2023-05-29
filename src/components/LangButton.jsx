@@ -22,14 +22,14 @@ function LangButton() {
 
 
   return (
-    <button onClick={handleLang} className='px-1 mx-1 font-semibold'>
+    <div onClick={handleLang}>
       {
         lang === 'en' ?
-          <button onClick={() => i18n.changeLanguage('en')}> EN </button>
+          <button onClick={() => i18n.changeLanguage('en')}> En </button>
           :
-          <button onClick={() => i18n.changeLanguage('es')}> ES </button>
+          <button onClick={() => i18n.changeLanguage('es')}> Es </button>
       }
-    </button>
+    </div>
   )
 }
 

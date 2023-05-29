@@ -14,11 +14,11 @@ function ThemeButton() {
 	}, [theme]);
 
 	const handleTheme = () => {
-		setTheme(theme === "dark" ? "light" : "dark")
+		setTheme(theme === 'dark' ? 'light' : 'dark')
 	}
 
 	return (
-		<button className='text-xl mx-2' onClick={handleTheme}>
+		<button onClick={handleTheme}>
 			{
 				theme === 'dark' ?
 					<BiSun className='inline' />

@@ -7,7 +7,8 @@
 	
 	"top-page": {
 		"hello-one": "Hello! My name is",
-		"hello-two": "I'm Front-End Developer",
+		"hello-two": "I'm Full Stack Developer",
+		"hello-three": "I'm System Engineer",
 		"res-view": "View Resume",
 		"res-download": "Download Resume",
 		"cv-url": "ResumeEn"
@@ -21,14 +22,20 @@
 	},
 
 	"portfolio": {
-		"title": "Portfolio"
+		"title": "Portfolio",
+		"page-one": "",
+		"page-two": ""
 	},
 
 	"contact": {
 		"title": "Contact",
 		"form-name": "Name",	
 		"form-msg": "Message",
-		"form-btn": "Send"
-	}
+		"form-btn": "Send",
+		"title-two": "Location"
+	},
 
+	"footer": {
+		"text": "Design & Built by Joaquin Navarro"
+	}
 }

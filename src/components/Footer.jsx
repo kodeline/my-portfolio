@@ -1,8 +1,10 @@
+import { useTranslation } from 'react-i18next';
 
 function Footer () {
-
+  const [t] = useTranslation('global');
+  
   return(
-    <p className='text-xl text-center py-8'>Design & Built by Joaquin Navarro</p>
+    <p className='lg:text-xl text-center mb-8'>{t('footer.text')}</p>
   )
 }
 
